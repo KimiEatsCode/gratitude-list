@@ -1,129 +1,60 @@
-body {
-  background: url('debut_light.png')
+.container-fluid {
+  padding: 0 10%;
 }
 
-#container {
-  width: 600px;
-  font-family: 'Titillium Web', 'Arial', sans-serif;
-  font-size: 40px;
-  text-align: center;
-  margin: 40px auto;
+.form-control {
+  padding: 24px 12px!important;
+  font-size:1.3em;
 }
 
-h1 {
-  margin: 20px;
-  color:red;
-}
-
-#app {
-  box-shadow: 0 0 5px #684F91;
-  font-size: 35px;
-  color: #080D3B;
-  background-color: white;
-}
-
-form {
-  margin: 0;
-  padding: 0;
-}
+.font-1x{font-size: 1.2em;}
+.font-2x{font-size: 2em;}
+.font-3x{font-size: 3em;}
 
 
-
-#create {
-  width: 100%;
-  font-family: inherit;
-  font-size: inherit;
-  padding: 10px 30px;
-  border-left:    1px  solid #7d82b0;
-  border-right:   1px  solid #7d82b0;
-  border-bottom:  2px  solid #7d82b0;
-  border-top:     15px solid #477187;
+.page-header {
   text-align: center;
 }
 
-
-#create::-webkit-input-placeholder {
-  color: #C3C3C4;
-  text-align: center;
+#itemList {
+  min-width:200px;
+  width:500px;
 }
 
-#create::-moz-placeholder {  /* Firefox 19+ */
-   color: #C3C3C4;
-   text-align: center;
+.right-side-list {
+  min-height: 200px;
 }
 
-#create:focus::-webkit-input-placeholder {
-  color: transparent;
-  text-align: center;
+
+li.glyphicon-heart {
+    float: left;
+    clear: both;
+    line-height: 2em;
+    font-size: 1.2em;
 }
 
-#create:focus::-moz-placeholder {  /* Firefox 19+ */
-   color: transparent;
-   text-align: center;
+li.deleteButton.glyphicon.glyphicon-heart {
+    width: 100%;
+    text-align: left;
+    border-left: 2px solid #ccc;
+    padding-left: 32px;
 }
 
-#list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+span.glyphicon-remove-sign{
+    float: right;
 }
 
-.item {
-  position: relative;
-  box-sizing: border-box;
-  padding: 10px;
-  list-style-type: none;
-  width: 100%;
-  border-left:    1px  solid #7d82b0;
-  border-right:   1px  solid #7d82b0;
-  border-bottom:  2px  solid #7d82b0;
-  border-top:     0px  solid #7d82b0;
+@media screen and (max-width:1000px) {
+  .right-side-list {
+    text-align:center;
+    border:none;
+    padding-top:5%;
+  }
+  
+  li.glyphicon-heart {
+     text-align:center;
+  }
+    
 
-}
-
-.item .complete-button {
-  position: absolute;
-  left: 20px;
-  top: 10px;
-  cursor: pointer;
-  width:20px;
-  height:20px;
-  border:2px red solid;
-}
-
-.item .value {
-  margin: 0 50px;
-  padding: 0 15px;
-}
-
-.item .delete-button {
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  cursor: pointer;
-  color:red;
-}
-
-.item .deleted {
-  color:blue;
-}
-
-.item.completed {
-  color: #C3C3C4;
-}
-
-.not-done:after  {
-  content:"Not done actually!";
-  width: 140px;
-  height: 0;
-  color:black;
-  font-size: 1rem;
-  float: left;
-  margin-top: -24px;
-  /* margin-right: 45px; */
-}
-
-#templates {
-  display: none;
+  }
 }
