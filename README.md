@@ -1,4 +1,4 @@
-# Gratitude List Maker
+Gratitude List Maker
 In progress...
 
-Ultimate Goal: Create a gratitude list app where users can share their lists with friends and family. Maybe even share individual items with specific people. Spreading gratitude helps increase feelings of gratitude which is a tool used in cognitive psychology for people who suffer from depression and for people in general increase well-being. 
+Create an app where users can share gratitude lists with friends and family. Maybe even share individual items with specific people. Listing things one is grateful is tool used in a number of therapies to help with depression and promote positive thinking.  
